@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id = "bdy">
+
+    <h1 id="heading">Hi!I am Khushi</h1>
+    <p id="test">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <button id="button-id"  type="submit">Click Me</button>
+    
+    <script>
+        const heading = document.getElementById("heading");
+        //console.log(heading);
+
+        //console.log(heading.innertext="Khushi");
+        heading.style.color="blue";
+        const button = document.getElementById("button-id");
+        
+
+        
+        
+        const body = document.getElementById("bdy");
+
+        button.addEventListener("click",function()  {
+            
+            //button.innertext="Hold on...";
+            heading.style.color="red";
+            
+            body.style.backgroundColor="green"
+
+            
+
+        });
+
+    </script>
+    </body>
+</html>
